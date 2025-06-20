@@ -1,0 +1,28 @@
+{
+  "name": "react_basic",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "build:client": "cd client && npm run build",
+    "build:server": "echo 'No build step for server'",
+    "start:server": "nodemon --require dotenv/config server/server.js",
+    "start:client": "cd client && npm run dev",
+    "start": "concurrently \"npm run start:server\" \"npm run start:client\"",
+    "build": "npm i && cd client && npm i && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:prod": "node server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.10"
+  }
+}
