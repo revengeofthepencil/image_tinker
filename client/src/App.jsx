@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <div>
-        Check this out! the message is <em>{message}</em>
+        Heavens to Murgatroyd! the message is <em>{message}</em>
       </div>
       <h1>Basic Stuff</h1>
       <div className="card">
