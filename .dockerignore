@@ -1,6 +1,0 @@
-<vscode_codeblock_uri>file:///Users/alexwalker/Dropbox/code/react_basic/.dockerignore</vscode_codeblock_uri>node_modules
-client/node_modules
-dist
-npm-debug.log
-Dockerfile
-.dockerignore

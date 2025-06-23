@@ -1,1 +1,1 @@
-The day will come when this project does amazing things. As it stands, it's a bare-bones Node and React app that is waiting to be attached to an AI image processor. 
+The day may come when this project does amazing things. As it stands, it's a bare-bones Node and React app that is waiting to be attached to an AI image processor. 
