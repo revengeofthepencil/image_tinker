@@ -2,5 +2,5 @@ The day may come when this project does amazing things. As it stands, it's a bar
 
 To run in dev, just run:  
 ```bash
-docker-compose -f docker-compose.dev.yml up --build
+docker-compose up --build
 ```
